@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="ExportTOPDF" constructor="ExportTOPDFComponent" version="1.0.0" display-name-key="DocumentTemplateManger_Display_Key" description-key="DocumentTemplateManger_Desc_Key" control-type="standard" api-version="1.3.3">
+    <external-service-usage enabled="false"/>
+    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="DownloadBy" display-name-key="DownloadBy" description-key="Download the file by the specific person" of-type="SingleLine.Text" usage="input" required="false"/>
+    <property name="DownloadDate" display-name-key="DownloadDate" description-key="Download the file on the specified date." of-type="SingleLine.Text" usage="input" required="false"/>
+    <property name="allowDownload" display-name-key="Download_Display_Key" description-key="Download_Description_Key" of-type="Enum" usage="input" required="true" default-value="0">
+      <value name="yes" display-name-key="Yes_Display_Key" description-key="Yes_Description_Key">0</value>
+      <value name="no" display-name-key="No_Display_Key" description-key="No_Description_Key">1</value>
+    </property>
+    <property name="allowEmail" display-name-key="Email_Display_Key" description-key="Email_Description_Key" of-type="Enum" usage="input" required="true" default-value="0">
+      <value name="yes" display-name-key="Yes_Display_Key" description-key="Yes_Description_Key">0</value>
+      <value name="no" display-name-key="No_Display_Key" description-key="No_Description_Key">1</value>
+    </property>
+    <property name="allowSaveToSharePoint" display-name-key="SaveToSharePoint_Display_Key" description-key="SaveToSharePoint_Description_Key" of-type="Enum" usage="input" required="true" default-value="0">
+      <value name="yes" display-name-key="Yes_Display_Key" description-key="Yes_Description_Key">0</value>
+      <value name="no" display-name-key="No_Display_Key" description-key="No_Description_Key">1</value>
+    </property>
+    <property name="enableForInactiveRecords" display-name-key="EnableForInactiveRecords_Display_Key" description-key="EnableForInactiveRecords_Description_Key" of-type="Enum" usage="input" required="true" default-value="1">
+      <value name="yes" display-name-key="Yes_Display_Key" description-key="Yes_Description_Key">0</value>
+      <value name="no" display-name-key="No_Display_Key" description-key="No_Description_Key">1</value>
+    </property>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <resx path="strings/DocumentTemplateManager.1033.resx" version="1.0.0"/>
+      <resx path="strings/DocumentTemplateManager.1031.resx" version="1.0.0"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true"/>
+      <uses-feature name="WebAPI" required="true"/>
+    </feature-usage>
+    <built-by name="pac" version="1.10.4"/>
+  </control>
+</manifest>

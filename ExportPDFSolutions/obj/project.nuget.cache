@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D9hlpriH0rUa8Uyaxdv9yynKMEhqHU5EgQj05I/IA2m6LjoESvZPWGXqRXwAADvfn2wYzBniBgiJar5gCTZSZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\PCF Control\\DocumentTemplateManager(ExportToPDF)\\ExportPDFSolutions\\ExportPDFSolutions.cdsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.29.6\\microsoft.powerapps.msbuild.pcf.1.29.6.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.29.6\\microsoft.powerapps.msbuild.solution.1.29.6.nupkg.sha512"
+  ],
+  "logs": []
+}

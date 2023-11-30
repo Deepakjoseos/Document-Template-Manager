@@ -1,0 +1,4 @@
+C:\Users\Admin\Downloads\PCF Control\DocumentTemplateManager-master\obj\Debug\PCFTEMP.pcfproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\PCF Control\DocumentTemplateManager-master\obj\Debug\PCFTEMP.pcfproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\PCF Control\DocumentTemplateManager(ExportToPDF)\obj\Debug\PCFTEMP.pcfproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\PCF Control\DocumentTemplateManager(ExportToPDF)\obj\Debug\PCFTEMP.pcfproj.CoreCompileInputs.cache
